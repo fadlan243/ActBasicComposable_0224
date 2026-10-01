@@ -75,3 +75,20 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
         ) {
             Spacer(modifier = Modifier.height(48.dp))
 
+            // Judul
+            Text(
+                text = "Login",
+                fontSize = 36.sp,
+                fontWeight = FontWeight.ExtraBold,
+                letterSpacing = 4.sp,
+                color = Color.White,
+                style = TextStyle(
+                    shadow = Shadow(
+                        color = Cyan.copy(alpha = 0.6f),
+                        offset = Offset(0f, 0f),
+                        blurRadius = 24f
+                    )
+                )
+            )
+
+            Spacer(modifier = Modifier.height(6.dp))
