@@ -195,3 +195,7 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                     modifier = Modifier.fillMaxSize(),
                     contentScale = ContentScale.Crop
                 )
+            }
+        }
+    }
+}
