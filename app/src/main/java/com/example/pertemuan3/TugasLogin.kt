@@ -134,3 +134,24 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
             }
 
             Spacer(modifier = Modifier.height(28.dp))
+
+            // Nama dan NIM
+            Text(
+                text = "NAMA",
+                fontSize = 13.sp,
+                fontWeight = FontWeight.Bold,
+                letterSpacing = 4.sp,
+                color = Gold
+            )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Fadlan Nasrizal Parma",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White,
+                textAlign = TextAlign.Center
+            )
+
+            Spacer(modifier = Modifier.height(12.dp))
