@@ -100,6 +100,8 @@ fun TataletakRowColumn(modifier: Modifier) {
 
 @Composable
 fun TataLetakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.download)
+    Column {
 
     }
 }
