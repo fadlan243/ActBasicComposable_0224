@@ -155,3 +155,22 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(12.dp))
+
+            Box(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(50))
+                    .background(Color.White.copy(alpha = 0.12f))
+                    .border(1.dp, Gold.copy(alpha = 0.6f), RoundedCornerShape(50))
+                    .padding(horizontal = 22.dp, vertical = 8.dp)
+            ) {
+                Text(
+                    text = "20240140224",
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    letterSpacing = 2.sp,
+                    color = GoldSoft
+                )
+            }
+
+            Spacer(modifier = Modifier.height(28.dp))
+
