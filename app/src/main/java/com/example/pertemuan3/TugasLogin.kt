@@ -111,3 +111,26 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(28.dp))
+
+            // Logo UMY bulat sempurna dengan bingkai emas
+            Box(
+                modifier = Modifier
+                    .size(120.dp)
+                    .shadow(12.dp, CircleShape, ambientColor = Gold, spotColor = Gold)
+                    .border(3.dp, Gold, CircleShape)
+                    .padding(3.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.logo_umy),
+                    contentDescription = "Logo UMY",
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .scale(1.25f),
+                    contentScale = ContentScale.Crop
+                )
+            }
+
+            Spacer(modifier = Modifier.height(28.dp))
