@@ -174,3 +174,24 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(28.dp))
 
+            // Foto lingkaran dengan bingkai gradien dan bayangan
+            Box(
+                modifier = Modifier
+                    .size(210.dp)
+                    .shadow(20.dp, CircleShape, ambientColor = Gold, spotColor = Gold)
+                    .border(
+                        width = 5.dp,
+                        brush = Brush.sweepGradient(listOf(Gold, Cyan, Gold, Cyan, Gold)),
+                        shape = CircleShape
+                    )
+                    .padding(7.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.fadlan),
+                    contentDescription = "Foto Fadlan",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
