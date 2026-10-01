@@ -92,3 +92,22 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(6.dp))
+
+            // Garis aksen kecil di bawah judul
+            Box(
+                modifier = Modifier
+                    .size(width = 48.dp, height = 3.dp)
+                    .clip(RoundedCornerShape(50))
+                    .background(Gold)
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                letterSpacing = 0.5.sp,
+                color = Color.White.copy(alpha = 0.8f)
+            )
+
+            Spacer(modifier = Modifier.height(28.dp))
