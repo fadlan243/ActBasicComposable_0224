@@ -66,3 +66,12 @@ fun TugasLoginScreen(modifier: Modifier = Modifier) {
                     )
                 )
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Spacer(modifier = Modifier.height(48.dp))
+
